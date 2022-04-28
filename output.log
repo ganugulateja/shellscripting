@@ -1,0 +1,26 @@
+**************************before reboot*************************** 
+Linux ansible-master 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 23 16:47:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem                 Size  Used Avail Use% Mounted on
+devtmpfs                   470M     0  470M   0% /dev
+tmpfs                      487M     0  487M   0% /dev/shm
+tmpfs                      487M  8.4M  478M   2% /run
+tmpfs                      487M     0  487M   0% /sys/fs/cgroup
+/dev/mapper/rootvg-rootlv   50G  7.2G   43G  15% /
+/dev/sda1                 1014M  213M  802M  21% /boot
+/dev/mapper/rootvg-varlv   5.0G  950M  4.1G  19% /var
+/dev/mapper/rootvg-tmplv   5.0G   33M  5.0G   1% /tmp
+/dev/sdc                   9.8G   37M  9.2G   1% /scripts/ansible
+/dev/mapper/vg1-lv1        9.8G  7.5G  1.9G  81% /repo
+/dev/mapper/rootvg-homelv  5.0G   39M  5.0G   1% /home
+/dev/mapper/rootvg-optlv   5.0G   33M  5.0G   1% /opt
+tmpfs                       98M  8.0K   98M   1% /run/user/42
+tmpfs                       98M     0   98M   0% /run/user/0
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         10.10.0.1       0.0.0.0         UG        0 0          0 ens33
+10.10.0.0       0.0.0.0         255.255.0.0     U         0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+172.17.0.0      0.0.0.0         255.255.0.0     U         0 0          0 docker0
+192.168.122.0   0.0.0.0         255.255.255.0   U         0 0          0 virbr0
+ 15:49:26 up 5 min,  1 user,  load average: 0.02, 0.23, 0.14
+ ******************prechecks execution completed***************** 
